@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de password</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container-box">
+        <div class="container-box-psw">
+          <input id="psw-generator" class="psw" type="text" placeholder="P4$W0RD!" readonly />
+        </div>
+        <p class="length" id="length">Length: <span>18</span></p>
+        <div class="container-box-length">
+          <div class="range">
+            <p>4</p>
+            <input id="psw-range" class="rango" type="range" min="4" max="32" step="1" />
+            <p>32</p>
+          </div>
+        </div>
+        <button id="button-generator" class="btn" type="button">Generate Password</button>
+      </div>
+    </main>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

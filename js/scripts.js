@@ -6,7 +6,7 @@ const buttonGeneratorElement = document.getElementById('button-generator');
 
 const allCharacters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789º"·$%&/()=?¿¡Ç¨_:.,;';
 
-let passwordLength = '';
+let passwordLength = '18';
 
 const setLenghtPassword = (event) => {
   passwordLength = event.target.value;
